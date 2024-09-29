@@ -5,7 +5,7 @@ html { box-sizing: border-box; }
 /*
 	BARVY
 	czechitas  #b92e81
-	pozadi     #bdc3c7
+	pozadi     #bdc3c7 body
 	tmava      #31363b
 	delitka    #3f464d
 	portfolio  #e74c3c
@@ -16,4 +16,125 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	margin: 0;
 }
+
+.montserrat {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.montserrat-bold {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.source-sans {
+	font-family: "Source Sans 3", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.profil {
+	background-color: #31363b;
+	width: 250px;
+	margin: 30px;
+}
+
+.hlavicka {
+	position: relative;
+}
+
+.foto {
+	width: 100%;
+}
+
+.logo {
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	right: 25px;
+}
+
+.obsah {
+	padding: 20px;
+	color: #bdc3c7;
+	font-size: 15px;
+}
+
+.jmeno {
+	color: white;
+	margin-top: 5px;
+	font-size: 24px;
+
+}
+
+.odkazy {
+	padding: 0;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+
+.portfolio {
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	border-top: 1px solid #3f464d;
+	border-bottom: 1px solid #3f464d;
+}
+
+.portfolio:hover {
+	background-color: #e74c3c;
+}
+
+.portfolio a:hover {
+	color: white;
+}
+
+.facebook {
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+	border-right: 1px solid #3f464d;
+}
+
+.facebook:hover {
+	background-color: #3b5998;
+}
+
+.facebook a:hover {
+	color: white;
+}
+
+.twitter {
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+}
+
+.twitter:hover {
+	background-color: #1da1f2;
+}
+
+.twitter a:hover {
+	color: white;
+}
+
+.portfolio a,
+.facebook a,
+.twitter a {
+	color: #bdc3c7;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+
